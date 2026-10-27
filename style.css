@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0b1030;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#title {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 24px;
+  background: #f1e3c1;
+  color: #1a1a2e;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 6px;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+#error {
+  position: fixed;
+  inset: 40% 10% auto 10%;
+  padding: 16px;
+  background: #ff6b35;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  z-index: 20;
+}
